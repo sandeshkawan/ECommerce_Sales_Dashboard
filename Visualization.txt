@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Data Visualization </title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-weight: 600;
+            font-size: 2em;
+        }
+        .gallery {
+            display: grid;
+            /* Creates a 2-column layout for screens wider than 1050px */
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 25px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .chart-container {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+        }
+        .chart-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 4px;
+        }
+        .chart-title {
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>E-commerce Sales Analysis: Key Insights Gallery </h1>
+
+    <div class="gallery">
+        <div class="chart-container">
+            <div class="chart-title">1. Profitability by Product Category</div>
+            <img src="C:\Users\Sandesh\Downloads\newplot.png" alt="Visualization 1 - New Plot">
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">2. Discount Effectiveness</div>
+            <img src="C:\Users\Sandesh\Downloads\newplot (1).png" alt="Visualization 2 - New Plot (1)">
+        </div>
+        
+        <div class="chart-container">
+            <div class="chart-title">3. Total Profit by Category</div>
+            <img src="C:\Users\Sandesh\Downloads\newplot (11).png" alt="Bar chart showing total profit by product category">
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">4.Revenue Hierarchy & Profitability By Region and Category</div>
+            <img src="C:\Users\Sandesh\Downloads\newplot (10).png" alt="Density map of profit vs discount percentage">
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">5. Profit Distribution </div>
+            <img src="C:\Users\Sandesh\Downloads\newplot (9).png" alt="Violin plot showing profit distribution by customer satisfaction level">
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">6. Revenue vs. Units Sold</div>
+            <img src="C:\Users\Sandesh\Downloads\newplot (8).png" alt="Scatter plot showing revenue vs units sold">
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">7. Total Revenue </div>
+            <img src="C:\Users\Sandesh\Downloads\newplot (7).png" alt="Histogram showing revenue distribution">
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">8. Profit Ratio </div>
+            <img src="C:\Users\Sandesh\Downloads\newplot (6).png" alt="Pie chart showing regional revenue breakdown">
+        </div>
+        
+        <div class="chart-container">
+            <div class="chart-title">9. Revenue/Profit Grouped Comparison</div>
+            <img src="C:\Users\Sandesh\Downloads\newplot (5).png" alt="Grouped bar chart showing revenue and profit comparison by region">
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">10. Marketing Spend vs. Revenue (ROI)</div>
+            <img src="C:\Users\Sandesh\Downloads\newplot (4).png" alt="Scatter plot showing revenue vs marketing spend">
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">11.Regional Revenue Breakdown </div>
+            <img src="C:\Users\Sandesh\Downloads\newplot (3).png" alt="Box plot showing order processing time distribution">
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">12. Profit vs. Customer Satisfaction</div>
+            <img src="C:\Users\Sandesh\Downloads\newplot (2).png" alt="Scatter plot showing profit vs customer satisfaction score">
+        </div>
+
+    </div>
+
+</body>
+</html>
